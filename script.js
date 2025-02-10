@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "!!!";
+  titleElement.innerHTML = "YEHEYY I KNEW IT MAGG YESYES KAA MWAMWAMWMAMWA";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
@@ -42,12 +42,12 @@ function resizeYesButton() {
 
 function generateMessage(noCount) {
   const messages = [
-    "bleh kuya",
-    "",
-    "",
-    "",
-    "",
-    "",
+    "No",
+    "Sure ka diyan?",
+    "HALA IPAPAUBAYA TALAGA AKO KAY DIWATA",
+    "MY HEART IS NOT HEARTING ITS HEURTING NA",
+    "HALA DAHIL BA NAGSESELOS AKO SA KOREANO MO",
+    "YES, KALA MO AH",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
